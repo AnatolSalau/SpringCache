@@ -23,4 +23,10 @@ public class IndexController {
             MyRecord fromCacheOrUpdate = myRecordService.updateInCacheOrCreate(recordId);
             return fromCacheOrUpdate;
       }
+
+      @DeleteMapping("{id}")
+      String deleteRecord(@PathVariable(name = "id", required = false) Integer recordId) {
+            myRecordService.deleteRecord(recordId);
+            return "record was delete";
+      }
 }

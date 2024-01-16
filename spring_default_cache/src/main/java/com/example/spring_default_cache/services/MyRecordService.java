@@ -1,6 +1,7 @@
 package com.example.spring_default_cache.services;
 
 import com.example.spring_default_cache.model.MyRecord;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -31,5 +32,12 @@ public class MyRecordService {
             }
             System.out.println("updateInCacheOrCreate end");
             return new MyRecord(recordId, "My record " + Integer.toString(recordId), LocalTime.now());
+      }
+
+      @CacheEvict(cacheNames = "recordCache", key = "#recordId")
+      public MyRecord deleteRecord(int recordId) {
+            // some logic
+
+            return null;
       }
 }
