@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Add Caching Config">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Spring Redis initial project">
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/controllers/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringRedisFirst/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="jdk.selected.JAVA_MODULE" value="liberica-21" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringDefaultCacheApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -96,6 +98,13 @@
     <configuration name="SpringDefaultCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring_default_cache.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring_default_cache.SpringDefaultCacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRedisFirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringRedisFirst.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springredisfirst.SpringRedisFirstApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705495027983</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring Redis initial project">
+      <created>1705495309790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705495309790</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +190,8 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="MyRecordService" />
     <MESSAGE value="Add Caching Config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Caching Config" />
+    <MESSAGE value="Spring Redis initial project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Redis initial project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
