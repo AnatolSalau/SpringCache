@@ -22,7 +22,10 @@ repositories {
 }
 
 dependencies {
+    //spring cache
     implementation 'org.springframework.boot:spring-boot-starter-cache'
+
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
