@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="MyRecordService">
-      <change afterPath="$PROJECT_DIR$/spring_default_cache/src/main/java/com/example/spring_default_cache/config/CacheManagerCustomizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_default_cache/src/main/java/com/example/spring_default_cache/config/CachingConfig.java" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Add Caching Config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_default_cache/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring_default_cache/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_default_cache/src/main/java/com/example/spring_default_cache/SpringDefaultCacheApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_default_cache/src/main/java/com/example/spring_default_cache/SpringDefaultCacheApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705092841384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Caching Config">
+      <created>1705491114178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705491114178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="MyRecordService" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyRecordService" />
+    <MESSAGE value="Add Caching Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Caching Config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
