@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Spring Redis initial project">
-      <change afterPath="$PROJECT_DIR$/.idea/redis-manager-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/services/PersonRedisService.java" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="MyRecordService">
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/screens/cmd_get_name_id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/screens/cmd_hget_all.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRedisFirst/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringRedisFirst/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/HELP.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +37,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SpringRedisFirst" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SpringRedisFirst" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SpringRedisFirst" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>

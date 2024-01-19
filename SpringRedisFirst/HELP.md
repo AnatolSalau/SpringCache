@@ -1,1 +1,7 @@
-https://www.youtube.com/watch?v=LB1qBnrCGVQ&ab_channel=TrendingCode
+Check save or not Person in Redis
+
+![](screens/cmd_get_name_id.png)
+
+Get all
+
+![img.png](screens/cmd_hget_all.png)
