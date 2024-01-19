@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="ReactiveRedis">
-      <change afterPath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/model/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/repository/LanguageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/repository/LanguageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/repository/LanguageRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705684449371</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ReactiveRedis">
+      <created>1705686075539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705686075539</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
