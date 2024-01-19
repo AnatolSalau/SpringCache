@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Redis save all">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="ReactiveRedis">
+      <change afterPath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/model/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactiveRedis/src/main/java/com/example/reactiveredis/repository/LanguageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,15 +80,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "jdk.selected.JAVA_MODULE": "liberica-21"
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "jdk.selected.JAVA_MODULE": "liberica-21",
+    "last_opened_file_path": "D:/JavaDevelop/Projects/SpringCache/ReactiveRedis/src/main/resources"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaDevelop\Projects\SpringCache\ReactiveRedis\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaDevelop\Projects\SpringCache\SpringRedisFirst\screens" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringRedisFirstApplication">
+  <component name="RunManager" selected="Spring Boot.ReactiveRedisApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -96,6 +106,13 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReactiveRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ReactiveRedis.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.reactiveredis.ReactiveRedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705684099635</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ReactiveRedis">
+      <created>1705684449371</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705684449371</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +244,8 @@
     <MESSAGE value="Add Caching Config" />
     <MESSAGE value="Spring Redis initial project" />
     <MESSAGE value="Redis save all" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis save all" />
+    <MESSAGE value="ReactiveRedis" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReactiveRedis" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
