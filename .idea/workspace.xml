@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="MyRecordService">
-      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/screens/cmd_get_name_id.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/screens/cmd_hget_all.png" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Redis save all">
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/screens/postman_get.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringRedisFirst/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/HELP.md" afterDir="false" />
     </list>
@@ -83,6 +82,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaDevelop\Projects\SpringCache\SpringRedisFirst\screens" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringRedisFirstApplication">
     <configuration default="true" type="Application" factoryName="Application">
@@ -181,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705497949768</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Redis save all">
+      <created>1705682885905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705682885905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +214,8 @@
     <MESSAGE value="MyRecordService" />
     <MESSAGE value="Add Caching Config" />
     <MESSAGE value="Spring Redis initial project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Redis initial project" />
+    <MESSAGE value="Redis save all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis save all" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

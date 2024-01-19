@@ -5,3 +5,7 @@ Check save or not Person in Redis
 Get all
 
 ![img.png](screens/cmd_hget_all.png)
+
+Postman get
+
+![](screens/postman_get.png)
