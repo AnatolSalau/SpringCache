@@ -1,7 +1,9 @@
 package com.example.springredisfirst.controllers;
 
 import com.example.springredisfirst.model.Person;
+import com.example.springredisfirst.services.PersonRedisService;
 import jakarta.annotation.Resource;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,21 +11,21 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/")
 public class IndexController {
 
-      @Resource(name = "redisTemplate")
-      private HashOperations<String,String, Person> hashOperations;
+      final PersonRedisService personRedisService;
+
+      public IndexController(PersonRedisService personRedisService) {
+            this.personRedisService = personRedisService;
+      }
 
       @GetMapping("/{key}")
       public Person getPerson(@PathVariable("key") String key) {
-            System.out.println("Going to get Person with id: " + key);
-            return hashOperations.get("Person", key);
+            Person person = personRedisService.getPerson(key);
+            return person;
       }
 
       @PostMapping()
       public Person postPerson(@RequestBody Person person) {
-            System.out.println("Going to set Person with id: ");
-            System.out.println(person);
-            hashOperations.put("Person",person.id(),person);
-
-            return hashOperations.get("Person", person.id());
+            Person saved = personRedisService.savePerson(person);
+            return saved;
       }
 }

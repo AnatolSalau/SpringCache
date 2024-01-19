@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="MyRecordService">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Spring Redis initial project">
+      <change afterPath="$PROJECT_DIR$/.idea/redis-manager-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/services/PersonRedisService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringRedisFirst/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/controllers/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,23 +94,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "jdk.selected.JAVA_MODULE": "liberica-21",
-    "last_opened_file_path": "C:/JAVA/gradle-8.5",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.17254528",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
   <component name="RunManager" selected="Spring Boot.SpringRedisFirstApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -159,6 +155,8 @@
       <workItem from="1705089895886" duration="2957000" />
       <workItem from="1705227379354" duration="785000" />
       <workItem from="1705426192240" duration="1174000" />
+      <workItem from="1705665614767" duration="125000" />
+      <workItem from="1705665766727" duration="3574000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1704891758289</created>
