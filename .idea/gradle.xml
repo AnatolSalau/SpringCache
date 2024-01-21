@@ -19,6 +19,18 @@
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringRedisCache" />
+        <option name="gradleHome" value="C:/JAVA/gradle-8.5" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SpringRedisCache" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/SpringRedisFirst" />
         <option name="gradleHome" value="C:/JAVA/gradle-8.5" />
         <option name="modules">
