@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="ReactiveRedis was deleted">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="SpringRedisCacheApplication">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisCache/src/main/java/com/example/springrediscache/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisCache/src/main/java/com/example/springrediscache/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisCache/src/main/java/com/example/springrediscache/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringRedisCache/src/main/java/com/example/springrediscache/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringRedisCache/SpringRedisCache.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringRedisCache/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisCache/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,10 +93,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "liberica-21",
     "last_opened_file_path": "D:/JavaDevelop/Projects/SpringCache/ReactiveRedis/src/main/resources",
@@ -101,8 +108,16 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "spring.configuration.checksum": "d22bec5aab6bfe9bc61ac691e8e7faa5"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.reactiveredis.handler" />
@@ -114,7 +129,7 @@
       <recent name="D:\JavaDevelop\Projects\SpringCache\SpringRedisFirst\screens" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ReactiveRedisApplication">
+  <component name="RunManager" selected="Spring Boot.SpringRedisCacheApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -184,7 +199,7 @@
       <workItem from="1705665766727" duration="3574000" />
       <workItem from="1705692132532" duration="3179000" />
       <workItem from="1705781568784" duration="194000" />
-      <workItem from="1705861831150" duration="1280000" />
+      <workItem from="1705861831150" duration="3070000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1704891758289</created>
@@ -270,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705696153676</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SpringRedisCacheApplication">
+      <created>1705864337795</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705864337795</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +318,8 @@
     <MESSAGE value="Redis save all" />
     <MESSAGE value="ReactiveRedis" />
     <MESSAGE value="ReactiveRedis was deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReactiveRedis was deleted" />
+    <MESSAGE value="SpringRedisCacheApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringRedisCacheApplication" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
