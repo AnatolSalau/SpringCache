@@ -8,10 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -49,6 +46,36 @@ public class EmployeeController {
                   return ResponseEntity
                         .status(HttpStatus.OK)
                         .body(all);
+            } catch (Exception ex ){
+                  return ResponseEntity
+                        .status(HttpStatus.EXPECTATION_FAILED)
+                        .body(new EmployeeNotFoundException("Unexpected error"));
+            }
+      }
+
+      @PostMapping("emp")
+      public ResponseEntity<Object> updateEmployee(EmployeeDto employeeDto) {
+            log.info("UPDATE-- employee {}", employeeDto);
+            try {
+                  EmployeeDto employee = employeeService.update(employeeDto, employeeDto.getEmployeeNo());
+                  return ResponseEntity
+                        .status(HttpStatus.OK)
+                        .body(employee);
+            } catch (Exception ex ){
+                  return ResponseEntity
+                        .status(HttpStatus.EXPECTATION_FAILED)
+                        .body(new EmployeeNotFoundException("Unexpected error"));
+            }
+      }
+
+      @DeleteMapping("emp/{empNo}")
+      public ResponseEntity<Object> deleteEmployee(@PathVariable("empNo") String empNo) {
+            log.info("UPDATE-- employee no {}", empNo);
+            try {
+                  employeeService.deleteByEmployeeNo(empNo);
+                  return ResponseEntity
+                        .status(HttpStatus.OK)
+                        .body("");
             } catch (Exception ex ){
                   return ResponseEntity
                         .status(HttpStatus.EXPECTATION_FAILED)

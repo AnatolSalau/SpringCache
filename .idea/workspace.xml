@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="ModelMapper">
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/controller/EmployeeController.java" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="SpringRedisCacheApplication">
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/AppLoadingData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +47,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SpringCacheByRedis" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -106,18 +103,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="liberica-21" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "42e5b5c7b19924265ea88e6dd22a8205"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -203,6 +195,7 @@
       <workItem from="1705692132532" duration="3179000" />
       <workItem from="1705781568784" duration="194000" />
       <workItem from="1705861831150" duration="3070000" />
+      <workItem from="1705944511171" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1704891758289</created>
