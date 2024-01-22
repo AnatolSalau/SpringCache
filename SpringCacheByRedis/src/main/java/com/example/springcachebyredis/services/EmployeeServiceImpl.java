@@ -2,6 +2,7 @@ package com.example.springcachebyredis.services;
 
 import com.example.springcachebyredis.dto.EmployeeDto;
 import com.example.springcachebyredis.entity.Employee;
+import com.example.springcachebyredis.exceptions.EmployeeNotFoundException;
 import com.example.springcachebyredis.repository.EmployeeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
@@ -30,7 +31,7 @@ public class EmployeeServiceImpl implements  EmployeeService{
             Optional<Employee> employee = employeeRepository.findEmployeeByEmployeeNo(employeeNo);
             EmployeeDto employeeDto = employee
                   .map(em -> modelMapper.map(em, EmployeeDto.class))
-                  .orElse(null);
+                  .orElseThrow(() ->new EmployeeNotFoundException("Employee not found"));
 
             return employeeDto;
       }
@@ -43,11 +44,20 @@ public class EmployeeServiceImpl implements  EmployeeService{
                        .map(employee -> modelMapper.map(employee,EmployeeDto.class))
                        .collect(Collectors.toList());
             }
-            return null;
+            throw new EmployeeNotFoundException("List of employees  not found");
       }
 
       @Override
       public EmployeeDto update(EmployeeDto employeeDto, String employeeNo) {
+            Optional<Employee> employee = employeeRepository.findEmployeeByEmployeeNo(employeeNo);
+
+            if (employee.isPresent()) {
+                  employee.get().setSex(employeeDto.getSex());
+                  employee.get().setEdLevel(employeeDto.getEdLevel());
+                  Employee temp = employeeRepository.save(employee.get());
+                  return modelMapper.map(temp,EmployeeDto.class);
+            }
+            log.error("No employee no {} found", employeeDto);
             return null;
       }
 
