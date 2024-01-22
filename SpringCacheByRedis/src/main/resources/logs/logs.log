@@ -82,3 +82,219 @@
 2024-01-22T20:48:43.404+03:00  WARN 7636 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2024-01-22T20:48:43.794+03:00  INFO 7636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
 2024-01-22T20:48:43.800+03:00  INFO 7636 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 2.742 seconds (process running for 3.225)
+2024-01-22T20:51:17.905+03:00  INFO 7636 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T20:51:17.907+03:00  INFO 7636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-22T20:51:17.909+03:00  INFO 7636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-22T22:11:35.788+03:00  INFO 15640 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 15640 (D:\JavaDevelop\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by RedmiBook in D:\JavaDevelop\Projects\SpringCache)
+2024-01-22T22:11:35.789+03:00  INFO 15640 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22T22:11:36.248+03:00  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:11:36.248+03:00  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22T22:11:36.297+03:00  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2024-01-22T22:11:36.310+03:00  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:11:36.311+03:00  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22T22:11:36.320+03:00  INFO 15640 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-22T22:11:36.320+03:00  INFO 15640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-01-22T22:11:36.655+03:00  INFO 15640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-22T22:11:36.663+03:00  INFO 15640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22T22:11:36.664+03:00  INFO 15640 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-22T22:11:36.714+03:00  INFO 15640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22T22:11:36.715+03:00  INFO 15640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 899 ms
+2024-01-22T22:11:36.803+03:00  INFO 15640 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22T22:11:36.835+03:00  INFO 15640 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-22T22:11:36.857+03:00  INFO 15640 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-22T22:11:36.990+03:00  INFO 15640 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-22T22:11:37.004+03:00  INFO 15640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-22T22:11:37.115+03:00  INFO 15640 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22b7ef2b
+2024-01-22T22:11:37.117+03:00  INFO 15640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-22T22:11:37.614+03:00  INFO 15640 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-22T22:11:37.649+03:00  INFO 15640 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:11:37.936+03:00  WARN 15640 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22T22:11:38.341+03:00  INFO 15640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-22T22:11:38.347+03:00  INFO 15640 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 2.84 seconds (process running for 3.29)
+2024-01-22T22:14:07.547+03:00  INFO 15640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-22T22:14:07.547+03:00  INFO 15640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-22T22:14:07.548+03:00  INFO 15640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-01-22T22:14:07.566+03:00  INFO 15640 --- [http-nio-8080-exec-1] c.e.s.controller.EmployeeController      : GET-- all employees
+2024-01-22T22:15:09.938+03:00  WARN 15640 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-01-22T22:15:36.648+03:00  WARN 15640 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-01-22T22:16:35.074+03:00  INFO 15640 --- [http-nio-8080-exec-5] c.e.s.controller.EmployeeController      : GET-- employee by employee_no 111111
+2024-01-22T22:17:55.199+03:00  INFO 15640 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:17:55.201+03:00  INFO 15640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-22T22:17:55.203+03:00  INFO 15640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-22T22:21:01.270+03:00  INFO 9156 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 9156 (D:\JavaDevelop\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by RedmiBook in D:\JavaDevelop\Projects\SpringCache)
+2024-01-22T22:21:01.272+03:00  INFO 9156 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22T22:21:01.722+03:00  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:21:01.723+03:00  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22T22:21:01.768+03:00  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-01-22T22:21:01.781+03:00  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:21:01.781+03:00  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22T22:21:01.791+03:00  INFO 9156 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-22T22:21:01.791+03:00  INFO 9156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-01-22T22:21:02.122+03:00  INFO 9156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-22T22:21:02.130+03:00  INFO 9156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22T22:21:02.130+03:00  INFO 9156 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-22T22:21:02.168+03:00  INFO 9156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22T22:21:02.169+03:00  INFO 9156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2024-01-22T22:21:02.257+03:00  INFO 9156 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22T22:21:02.287+03:00  INFO 9156 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-22T22:21:02.308+03:00  INFO 9156 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-22T22:21:02.439+03:00  INFO 9156 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-22T22:21:02.453+03:00  INFO 9156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-22T22:21:02.563+03:00  INFO 9156 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2353354a
+2024-01-22T22:21:02.565+03:00  INFO 9156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-22T22:21:03.069+03:00  INFO 9156 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-22T22:21:03.104+03:00  INFO 9156 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:21:03.393+03:00  WARN 9156 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22T22:21:03.774+03:00  INFO 9156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-22T22:21:03.781+03:00  INFO 9156 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 2.811 seconds (process running for 3.244)
+2024-01-22T22:22:05.382+03:00  INFO 9156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-22T22:22:05.382+03:00  INFO 9156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-22T22:22:05.383+03:00  INFO 9156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-22T22:22:05.409+03:00  INFO 9156 --- [http-nio-8080-exec-1] c.e.s.controller.EmployeeController      : UPDATE-- employee EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null)
+2024-01-22T22:22:05.460+03:00 ERROR 9156 --- [http-nio-8080-exec-1] c.e.s.services.EmployeeServiceImpl       : No employee no EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null) found
+2024-01-22T22:22:33.006+03:00  INFO 9156 --- [http-nio-8080-exec-2] c.e.s.controller.EmployeeController      : UPDATE-- employee EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null)
+2024-01-22T22:22:33.009+03:00 ERROR 9156 --- [http-nio-8080-exec-2] c.e.s.services.EmployeeServiceImpl       : No employee no EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null) found
+2024-01-22T22:23:03.713+03:00  INFO 9156 --- [http-nio-8080-exec-3] c.e.s.controller.EmployeeController      : GET-- all employees
+2024-01-22T22:23:08.689+03:00  INFO 9156 --- [http-nio-8080-exec-4] c.e.s.controller.EmployeeController      : GET-- all employees
+2024-01-22T22:23:18.171+03:00  INFO 9156 --- [http-nio-8080-exec-5] c.e.s.controller.EmployeeController      : GET-- all employees
+2024-01-22T22:23:35.055+03:00  INFO 9156 --- [http-nio-8080-exec-6] c.e.s.controller.EmployeeController      : UPDATE-- employee EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null)
+2024-01-22T22:23:35.058+03:00 ERROR 9156 --- [http-nio-8080-exec-6] c.e.s.services.EmployeeServiceImpl       : No employee no EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null) found
+2024-01-22T22:24:43.151+03:00  INFO 9156 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:24:43.154+03:00  INFO 9156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-22T22:24:43.156+03:00  INFO 9156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-22T22:24:46.519+03:00  INFO 13256 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 13256 (D:\JavaDevelop\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by RedmiBook in D:\JavaDevelop\Projects\SpringCache)
+2024-01-22T22:24:46.520+03:00  INFO 13256 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22T22:24:46.988+03:00  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:24:46.988+03:00  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22T22:24:47.032+03:00  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-01-22T22:24:47.043+03:00  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:24:47.044+03:00  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22T22:24:47.052+03:00  INFO 13256 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-22T22:24:47.052+03:00  INFO 13256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-01-22T22:24:47.379+03:00  INFO 13256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-22T22:24:47.388+03:00  INFO 13256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22T22:24:47.388+03:00  INFO 13256 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-22T22:24:47.429+03:00  INFO 13256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22T22:24:47.430+03:00  INFO 13256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 878 ms
+2024-01-22T22:24:47.523+03:00  INFO 13256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22T22:24:47.556+03:00  INFO 13256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-22T22:24:47.579+03:00  INFO 13256 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-22T22:24:47.722+03:00  INFO 13256 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-22T22:24:47.739+03:00  INFO 13256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-22T22:24:47.861+03:00  INFO 13256 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cc26df
+2024-01-22T22:24:47.862+03:00  INFO 13256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-22T22:24:48.386+03:00  INFO 13256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-22T22:24:48.421+03:00  INFO 13256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:24:48.751+03:00  WARN 13256 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22T22:24:49.173+03:00  INFO 13256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-22T22:24:49.179+03:00  INFO 13256 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 2.993 seconds (process running for 4.178)
+2024-01-22T22:24:54.363+03:00  INFO 13256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-22T22:24:54.364+03:00  INFO 13256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-22T22:24:54.364+03:00  INFO 13256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-01-22T22:24:54.391+03:00  INFO 13256 --- [http-nio-8080-exec-1] c.e.s.controller.EmployeeController      : UPDATE-- employee EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null)
+2024-01-22T22:26:04.498+03:00  WARN 13256 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s536ms16µs400ns).
+2024-01-22T22:26:04.500+03:00 ERROR 13256 --- [http-nio-8080-exec-1] c.e.s.services.EmployeeServiceImpl       : No employee no EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null) found
+2024-01-22T22:26:04.547+03:00  INFO 13256 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:26:04.550+03:00  INFO 13256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-22T22:26:04.554+03:00  INFO 13256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-22T22:26:07.156+03:00  INFO 12016 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 12016 (D:\JavaDevelop\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by RedmiBook in D:\JavaDevelop\Projects\SpringCache)
+2024-01-22T22:26:07.158+03:00  INFO 12016 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22T22:26:07.661+03:00  INFO 12016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:26:07.661+03:00  INFO 12016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22T22:26:07.708+03:00  INFO 12016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-01-22T22:26:07.720+03:00  INFO 12016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:26:07.721+03:00  INFO 12016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22T22:26:07.729+03:00  INFO 12016 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-22T22:26:07.730+03:00  INFO 12016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-01-22T22:26:08.068+03:00  INFO 12016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-22T22:26:08.077+03:00  INFO 12016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22T22:26:08.077+03:00  INFO 12016 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-22T22:26:08.119+03:00  INFO 12016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22T22:26:08.119+03:00  INFO 12016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 922 ms
+2024-01-22T22:26:08.226+03:00  INFO 12016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22T22:26:08.261+03:00  INFO 12016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-22T22:26:08.286+03:00  INFO 12016 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-22T22:26:08.420+03:00  INFO 12016 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-22T22:26:08.435+03:00  INFO 12016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-22T22:26:08.550+03:00  INFO 12016 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cc26df
+2024-01-22T22:26:08.552+03:00  INFO 12016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-22T22:26:09.059+03:00  INFO 12016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-22T22:26:09.096+03:00  INFO 12016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:26:09.407+03:00  WARN 12016 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22T22:26:09.816+03:00  INFO 12016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-22T22:26:09.822+03:00  INFO 12016 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 2.989 seconds (process running for 3.497)
+2024-01-22T22:26:12.661+03:00  INFO 12016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-22T22:26:12.661+03:00  INFO 12016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-22T22:26:12.662+03:00  INFO 12016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-22T22:28:07.912+03:00  WARN 12016 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s259ms424µs500ns).
+2024-01-22T22:28:07.914+03:00  INFO 12016 --- [http-nio-8080-exec-1] c.e.s.controller.EmployeeController      : UPDATE-- employee EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null)
+2024-01-22T22:28:07.977+03:00 ERROR 12016 --- [http-nio-8080-exec-1] c.e.s.services.EmployeeServiceImpl       : No employee no EmployeeDto(id=null, employeeNo=null, firstName=null, midInit=null, lastName=null, workDept=null, phoneNo=null, hireDate=null, job=null, edLevel=null, sex=null, birthDate=null, salary=null, bonus=null, comission=null) found
+2024-01-22T22:28:08.007+03:00  INFO 12016 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:28:08.009+03:00  INFO 12016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-22T22:28:08.012+03:00  INFO 12016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-22T22:28:11.413+03:00  INFO 16808 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 16808 (D:\JavaDevelop\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by RedmiBook in D:\JavaDevelop\Projects\SpringCache)
+2024-01-22T22:28:11.415+03:00  INFO 16808 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22T22:28:11.885+03:00  INFO 16808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:28:11.886+03:00  INFO 16808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22T22:28:11.929+03:00  INFO 16808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-01-22T22:28:11.940+03:00  INFO 16808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:28:11.941+03:00  INFO 16808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22T22:28:11.949+03:00  INFO 16808 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-22T22:28:11.949+03:00  INFO 16808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-01-22T22:28:12.284+03:00  INFO 16808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-22T22:28:12.293+03:00  INFO 16808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22T22:28:12.294+03:00  INFO 16808 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-22T22:28:12.333+03:00  INFO 16808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22T22:28:12.333+03:00  INFO 16808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 886 ms
+2024-01-22T22:28:12.428+03:00  INFO 16808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22T22:28:12.462+03:00  INFO 16808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-22T22:28:12.485+03:00  INFO 16808 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-22T22:28:12.624+03:00  INFO 16808 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-22T22:28:12.639+03:00  INFO 16808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-22T22:28:12.855+03:00  INFO 16808 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5350ab17
+2024-01-22T22:28:12.856+03:00  INFO 16808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-22T22:28:13.394+03:00  INFO 16808 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-22T22:28:13.430+03:00  INFO 16808 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:28:13.765+03:00  WARN 16808 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22T22:28:14.184+03:00  INFO 16808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-22T22:28:14.190+03:00  INFO 16808 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 3.108 seconds (process running for 3.6)
+2024-01-22T22:28:16.467+03:00  INFO 16808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-22T22:28:16.468+03:00  INFO 16808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-22T22:28:16.469+03:00  INFO 16808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-22T22:28:23.001+03:00  INFO 16808 --- [http-nio-8080-exec-1] c.e.s.controller.EmployeeController      : UPDATE-- employee EmployeeDto(id=1, employeeNo=111111, firstName=FirstName1AfterUpdate, midInit=****, lastName=LastName1AfterUpdate, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=Mon Jan 01 00:00:00 MSK 2001, job=Programmer, edLevel=High, sex=Man, birthDate=Mon Jan 01 00:00:00 MSK 2001, salary=111111.00, bonus=111.111, comission=111.111)
+2024-01-22T22:28:37.239+03:00  INFO 16808 --- [http-nio-8080-exec-3] c.e.s.controller.EmployeeController      : GET-- all employees
+2024-01-22T22:30:38.452+03:00  INFO 16808 --- [http-nio-8080-exec-4] c.e.s.controller.EmployeeController      : UPDATE-- employee no 111111
+2024-01-22T22:31:03.326+03:00  INFO 16808 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:31:03.328+03:00  INFO 16808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-22T22:31:03.331+03:00  INFO 16808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-22T22:31:06.414+03:00  INFO 4756 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 4756 (D:\JavaDevelop\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by RedmiBook in D:\JavaDevelop\Projects\SpringCache)
+2024-01-22T22:31:06.415+03:00  INFO 4756 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-22T22:31:06.843+03:00  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:31:06.843+03:00  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22T22:31:06.885+03:00  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-01-22T22:31:06.896+03:00  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-22T22:31:06.897+03:00  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-22T22:31:06.905+03:00  INFO 4756 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-22T22:31:06.905+03:00  INFO 4756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-01-22T22:31:07.210+03:00  INFO 4756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-22T22:31:07.219+03:00  INFO 4756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-22T22:31:07.219+03:00  INFO 4756 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-22T22:31:07.270+03:00  INFO 4756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-22T22:31:07.271+03:00  INFO 4756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2024-01-22T22:31:07.358+03:00  INFO 4756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22T22:31:07.387+03:00  INFO 4756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-22T22:31:07.409+03:00  INFO 4756 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-22T22:31:07.532+03:00  INFO 4756 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-22T22:31:07.545+03:00  INFO 4756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-22T22:31:07.640+03:00  INFO 4756 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d8d970e
+2024-01-22T22:31:07.641+03:00  INFO 4756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-22T22:31:08.120+03:00  INFO 4756 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-22T22:31:08.156+03:00  INFO 4756 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22T22:31:08.466+03:00  WARN 4756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22T22:31:08.854+03:00  INFO 4756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-22T22:31:08.860+03:00  INFO 4756 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 2.723 seconds (process running for 3.148)
+2024-01-22T22:31:11.121+03:00  INFO 4756 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-22T22:31:11.122+03:00  INFO 4756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-22T22:31:11.123+03:00  INFO 4756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-01-22T22:31:11.145+03:00  INFO 4756 --- [http-nio-8080-exec-1] c.e.s.controller.EmployeeController      : UPDATE-- employee no 111111
+2024-01-22T22:31:16.128+03:00  INFO 4756 --- [http-nio-8080-exec-2] c.e.s.controller.EmployeeController      : GET-- all employees

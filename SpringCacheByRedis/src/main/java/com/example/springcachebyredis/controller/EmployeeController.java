@@ -54,7 +54,7 @@ public class EmployeeController {
       }
 
       @PostMapping("emp")
-      public ResponseEntity<Object> updateEmployee(EmployeeDto employeeDto) {
+      public ResponseEntity<Object> updateEmployee(@RequestBody EmployeeDto employeeDto) {
             log.info("UPDATE-- employee {}", employeeDto);
             try {
                   EmployeeDto employee = employeeService.update(employeeDto, employeeDto.getEmployeeNo());
@@ -75,7 +75,7 @@ public class EmployeeController {
                   employeeService.deleteByEmployeeNo(empNo);
                   return ResponseEntity
                         .status(HttpStatus.OK)
-                        .body("");
+                        .body("Was deleted");
             } catch (Exception ex ){
                   return ResponseEntity
                         .status(HttpStatus.EXPECTATION_FAILED)

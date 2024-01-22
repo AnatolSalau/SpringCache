@@ -52,6 +52,8 @@ public class EmployeeServiceImpl implements  EmployeeService{
             Optional<Employee> employee = employeeRepository.findEmployeeByEmployeeNo(employeeNo);
 
             if (employee.isPresent()) {
+                  employee.get().setFirstName(employeeDto.getFirstName());
+                  employee.get().setLastName(employeeDto.getLastName());
                   employee.get().setSex(employeeDto.getSex());
                   employee.get().setEdLevel(employeeDto.getEdLevel());
                   Employee temp = employeeRepository.save(employee.get());
