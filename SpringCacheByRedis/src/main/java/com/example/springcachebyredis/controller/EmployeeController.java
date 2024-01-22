@@ -24,8 +24,9 @@ public class EmployeeController {
       }
 
       @GetMapping("emp")
-      public ResponseEntity<Object> findEmployeeByNo(@RequestParam String empNo) {
-            log.info("GET-- employee by employee_no {}", empNo);
+      public ResponseEntity<Object> findEmployeeByNo(@RequestParam String empNo) throws InterruptedException {
+            log.info("GET-- employee by employee_no {} from DB", empNo);
+            Thread.sleep(2000);
             try {
                   EmployeeDto employee = employeeService.findByEmployeeNo(empNo);
                   return ResponseEntity
@@ -39,8 +40,9 @@ public class EmployeeController {
       }
 
       @GetMapping("emp/all")
-      public ResponseEntity<Object> getAllEmployee () {
-            log.info("GET-- all employees");
+      public ResponseEntity<Object> getAllEmployee () throws InterruptedException {
+            log.info("GET-- all employees from DB");
+            Thread.sleep(2000);
             try {
                   List<EmployeeDto> all = employeeService.getAll();
                   return ResponseEntity
@@ -54,8 +56,9 @@ public class EmployeeController {
       }
 
       @PostMapping("emp")
-      public ResponseEntity<Object> updateEmployee(@RequestBody EmployeeDto employeeDto) {
-            log.info("UPDATE-- employee {}", employeeDto);
+      public ResponseEntity<Object> updateEmployee(@RequestBody EmployeeDto employeeDto) throws InterruptedException {
+            log.info("UPDATE-- employee from DB {}", employeeDto);
+            Thread.sleep(2000);
             try {
                   EmployeeDto employee = employeeService.update(employeeDto, employeeDto.getEmployeeNo());
                   return ResponseEntity
@@ -69,8 +72,9 @@ public class EmployeeController {
       }
 
       @DeleteMapping("emp/{empNo}")
-      public ResponseEntity<Object> deleteEmployee(@PathVariable("empNo") String empNo) {
-            log.info("UPDATE-- employee no {}", empNo);
+      public ResponseEntity<Object> deleteEmployee(@PathVariable("empNo") String empNo) throws InterruptedException {
+            log.info("DELETE-- employee no {} from DB", empNo);
+            Thread.sleep(2000);
             try {
                   employeeService.deleteByEmployeeNo(empNo);
                   return ResponseEntity
