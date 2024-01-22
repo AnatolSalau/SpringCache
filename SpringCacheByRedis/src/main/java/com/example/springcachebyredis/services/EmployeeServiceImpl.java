@@ -63,6 +63,13 @@ public class EmployeeServiceImpl implements  EmployeeService{
 
       @Override
       public boolean deleteByEmployeeNo(String employeeNo) {
+            Optional<Employee> employee = employeeRepository.findEmployeeByEmployeeNo(employeeNo);
+            if (employee.isPresent()) {
+                  employeeRepository.delete(employee.get());
+                  boolean existsById = employeeRepository.existsById(employee.get().getId());
+                  return !existsById;
+            }
+            log.error("No employee no {} found", employee);
             return false;
       }
 }
