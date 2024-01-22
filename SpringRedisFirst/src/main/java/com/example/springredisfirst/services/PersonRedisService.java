@@ -2,7 +2,6 @@ package com.example.springredisfirst.services;
 
 import com.example.springredisfirst.model.Person;
 import com.example.springredisfirst.repository.PersonRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
