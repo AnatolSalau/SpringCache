@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Spring RedisCache delete project">
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/SpringCacheByRedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/test/java/com/example/springcachebyredis/SpringCacheByRedisApplicationTests.java" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="SpringCacheByRedisApplication init project">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/dto/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/services/PersonRedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringRedisFirst/src/main/java/com/example/springredisfirst/services/PersonRedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +50,17 @@
         <task path="$PROJECT_DIR$/SpringRedisFirst">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/SpringCacheByRedis">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringCacheByRedis" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -71,6 +78,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -94,10 +117,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="liberica-21" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -120,7 +149,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringRedisFirstApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCacheByRedisApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -130,6 +159,13 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCacheByRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCacheByRedis.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcachebyredis.SpringCacheByRedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705910555769</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SpringCacheByRedisApplication init project">
+      <created>1705920648855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705920648855</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +347,8 @@
     <MESSAGE value="ReactiveRedis was deleted" />
     <MESSAGE value="SpringRedisCacheApplication" />
     <MESSAGE value="Spring RedisCache delete project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring RedisCache delete project" />
+    <MESSAGE value="SpringCacheByRedisApplication init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCacheByRedisApplication init project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

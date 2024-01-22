@@ -1,0 +1,38 @@
+spring:
+   jpa:
+      hibernate:
+         ddl-auto: update
+      properties:
+         hibernate:
+            show_sql: true
+            format_sql: true
+   sql:
+      init:
+         mode: always
+   datasource:
+      url: jdbc:postgresql://localhost:5432/postgres
+      driver-class-name: org.postgresql.Driver
+      username: postgres
+      password: sA#259979148307
+#REDIS
+   cache:
+      type: redis
+      redis:
+         #equal tp 10 min
+         time-to-live: 600000
+   data:
+      redis:
+         host: 127.0.0.1
+         port: 6379
+
+
+logging:
+   level:
+      org:
+         springframework:
+            security: DEBUG
+   file:
+      name: "SpringCacheByRedis/src/main/resources/logs/logs.log"
+      path: "SpringCacheByRedis/src/main/resources/logs/"
+server:
+   port: 8080
