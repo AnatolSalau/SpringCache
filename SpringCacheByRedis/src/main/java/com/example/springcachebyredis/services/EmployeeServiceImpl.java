@@ -7,6 +7,7 @@ import com.example.springcachebyredis.repository.EmployeeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -27,6 +28,7 @@ public class EmployeeServiceImpl implements  EmployeeService{
       }
 
       @Override
+      @Cacheable(value = "EmployeeDto", key = "#employeeNo")
       public EmployeeDto findByEmployeeNo(String employeeNo) {
             Optional<Employee> employee = employeeRepository.findEmployeeByEmployeeNo(employeeNo);
             EmployeeDto employeeDto = employee

@@ -83,7 +83,7 @@ public class RedisConfig implements CachingConfigurer  {
             return cacheManager;
       }
 
-      private Jackson2JsonRedisSerializer<Object> objectJackson2JsonRedisSerializer() {
+      public Jackson2JsonRedisSerializer<Object> objectJackson2JsonRedisSerializer() {
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper
                   .setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY)
