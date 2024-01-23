@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="RedisConfig.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

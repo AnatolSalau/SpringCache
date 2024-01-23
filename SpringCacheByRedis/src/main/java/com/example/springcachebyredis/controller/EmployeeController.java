@@ -33,6 +33,7 @@ public class EmployeeController {
                         .status(HttpStatus.OK)
                         .body(employee);
             } catch (Exception ex ){
+                  ex.printStackTrace();
                   return ResponseEntity
                         .status(HttpStatus.EXPECTATION_FAILED)
                         .body(new EmployeeNotFoundException("Unexpected error"));
