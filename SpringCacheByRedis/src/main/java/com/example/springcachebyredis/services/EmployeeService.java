@@ -8,10 +8,10 @@ public interface EmployeeService {
 
       EmployeeDto findByEmployeeNo(String employeeNo) throws InterruptedException;
 
-      List<EmployeeDto> getAll();
+      List<EmployeeDto> getAll() throws InterruptedException;
 
-      EmployeeDto update(EmployeeDto employeeDto, String employeeNo);
+      EmployeeDto update(EmployeeDto employeeDto, String employeeNo) throws InterruptedException;
 
-      boolean deleteByEmployeeNo(String employeeNo);
+      boolean deleteByEmployeeNo(String employeeNo) throws InterruptedException;
 
 }

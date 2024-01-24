@@ -25,7 +25,7 @@ public class EmployeeController {
 
       @GetMapping("emp")
       public ResponseEntity<Object> findEmployeeByNo(@RequestParam String empNo) throws InterruptedException {
-            log.info("GET-- employeeDTO by employee_no {} from DB", empNo);
+            log.info("GET-- employeeDTO by employee_no {} from controller", empNo);
             try {
                   EmployeeDto employee = employeeService.findByEmployeeNo(empNo);
                   return ResponseEntity
@@ -42,7 +42,7 @@ public class EmployeeController {
 
       @GetMapping("emp/all")
       public ResponseEntity<Object> getAllEmployee () throws InterruptedException {
-            log.info("GET-- all employees from DB");
+            log.info("GET-- all employees from controller");
             try {
                   List<EmployeeDto> all = employeeService.getAll();
                   return ResponseEntity
@@ -57,7 +57,7 @@ public class EmployeeController {
 
       @PostMapping("emp")
       public ResponseEntity<Object> updateEmployee(@RequestBody EmployeeDto employeeDto) throws InterruptedException {
-            log.info("UPDATE-- employee from DB {}", employeeDto);
+            log.info("UPDATE-- employee from controller {}", employeeDto);
             try {
                   EmployeeDto employee = employeeService.update(employeeDto, employeeDto.getEmployeeNo());
                   return ResponseEntity
@@ -72,7 +72,7 @@ public class EmployeeController {
 
       @DeleteMapping("emp/{empNo}")
       public ResponseEntity<Object> deleteEmployee(@PathVariable("empNo") String empNo) throws InterruptedException {
-            log.info("DELETE-- employee no {} from DB", empNo);
+            log.info("DELETE-- employee_no {} from controller", empNo);
             try {
                   employeeService.deleteByEmployeeNo(empNo);
                   return ResponseEntity

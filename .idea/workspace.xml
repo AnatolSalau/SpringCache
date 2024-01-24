@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Test api by postman">
-      <change afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log.2024-01-23.0.gz" afterDir="false" />
+    <list default="true" id="805900de-8efb-478d-8331-4a685fbcdfd1" name="Changes" comment="Get employee from redis Cache">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/AppLoadingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/AppLoadingData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/configs/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/entity/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/java/com/example/springcachebyredis/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCacheByRedis/src/main/resources/logs/logs.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,16 +104,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "spring.configuration.checksum": "42e5b5c7b19924265ea88e6dd22a8205"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;42e5b5c7b19924265ea88e6dd22a8205&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -206,7 +202,8 @@
       <workItem from="1705944511171" duration="1381000" />
       <workItem from="1705950542218" duration="2691000" />
       <workItem from="1706007947572" duration="4577000" />
-      <workItem from="1706115319551" duration="2880000" />
+      <workItem from="1706115319551" duration="3124000" />
+      <workItem from="1706124244760" duration="1866000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1704891758289</created>
@@ -362,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706040243121</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Get employee from redis Cache">
+      <created>1706118423339</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706118423339</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +402,8 @@
     <MESSAGE value="Add data to bd" />
     <MESSAGE value="RedisConfig.java" />
     <MESSAGE value="Test api by postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test api by postman" />
+    <MESSAGE value="Get employee from redis Cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get employee from redis Cache" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

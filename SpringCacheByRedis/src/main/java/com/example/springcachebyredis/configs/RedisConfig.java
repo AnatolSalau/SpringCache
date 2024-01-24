@@ -65,7 +65,7 @@ public class RedisConfig implements CachingConfigurer  {
       public CacheManager cacheManager(RedisConnectionFactory redisConnectionFactory) {
             RedisSerializer<String> redisSerializer = new StringRedisSerializer();
             RedisCacheConfiguration configuration = RedisCacheConfiguration.defaultCacheConfig()
-                  .entryTtl(Duration.ofMinutes(1))
+                  .entryTtl(Duration.ofMinutes(10))
                   .serializeKeysWith(
                         RedisSerializationContext.SerializationPair.fromSerializer(
                               redisSerializer
