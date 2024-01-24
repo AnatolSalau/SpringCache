@@ -41,7 +41,10 @@ public class AppLoadingData {
                   "LastName4", "WorkDepth", "+3752599661165", date("2024-05-05"),
                   "Programmer", "High", "Man", date("2004-04-04"), new BigDecimal(444_444), 444.444,
                   444.444));
-            employeeRepository.saveAll(employees);
+            employees.forEach((employee) -> {
+                  if(!employeeRepository.existsById(employee.getId()))
+                        employeeRepository.save(employee);
+            });
       }
 
       private Date date(String date) {

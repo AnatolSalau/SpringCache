@@ -1,6 +1,7 @@
 package com.example.springcachebyredis.configs;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,14 +16,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.cache.RedisCacheConfiguration;
 import org.springframework.data.redis.cache.RedisCacheManager;
+import org.springframework.data.redis.connection.ReactiveRedisConnectionFactory;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
+import org.springframework.data.redis.core.ReactiveRedisTemplate;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
-import org.springframework.data.redis.serializer.RedisSerializationContext;
-import org.springframework.data.redis.serializer.RedisSerializer;
-import org.springframework.data.redis.serializer.StringRedisSerializer;
+import org.springframework.data.redis.serializer.*;
 
 import java.time.Duration;
 
@@ -89,7 +89,7 @@ public class RedisConfig implements CachingConfigurer  {
                   .setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY)
                   .activateDefaultTyping(
                         LaissezFaireSubTypeValidator.instance,
-                        ObjectMapper.DefaultTyping.NON_CONCRETE_AND_ARRAYS,
+                        ObjectMapper.DefaultTyping.EVERYTHING,
                         JsonTypeInfo.As.WRAPPER_ARRAY
                   );
             Jackson2JsonRedisSerializer<Object> serializer = new Jackson2JsonRedisSerializer<>(objectMapper,
@@ -97,5 +97,4 @@ public class RedisConfig implements CachingConfigurer  {
             );
             return serializer;
       }
-
 }

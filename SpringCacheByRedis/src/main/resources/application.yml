@@ -19,7 +19,7 @@ spring:
       type: redis
       redis:
          #equal tp 10 min
-         time-to-live: 600000
+         time-to-live: 600000000
    data:
       redis:
          host: 127.0.0.1

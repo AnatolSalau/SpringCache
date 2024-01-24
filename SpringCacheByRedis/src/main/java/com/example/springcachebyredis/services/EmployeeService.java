@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface EmployeeService {
 
-      EmployeeDto findByEmployeeNo(String employeeNo);
+      EmployeeDto findByEmployeeNo(String employeeNo) throws InterruptedException;
 
       List<EmployeeDto> getAll();
 

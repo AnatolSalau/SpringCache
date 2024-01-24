@@ -25,14 +25,14 @@ public class EmployeeController {
 
       @GetMapping("emp")
       public ResponseEntity<Object> findEmployeeByNo(@RequestParam String empNo) throws InterruptedException {
-            log.info("GET-- employee by employee_no {} from DB", empNo);
-            Thread.sleep(2000);
+            log.info("GET-- employeeDTO by employee_no {} from DB", empNo);
             try {
                   EmployeeDto employee = employeeService.findByEmployeeNo(empNo);
                   return ResponseEntity
                         .status(HttpStatus.OK)
                         .body(employee);
             } catch (Exception ex ){
+                  log.info("Error handling:");
                   ex.printStackTrace();
                   return ResponseEntity
                         .status(HttpStatus.EXPECTATION_FAILED)
@@ -43,7 +43,6 @@ public class EmployeeController {
       @GetMapping("emp/all")
       public ResponseEntity<Object> getAllEmployee () throws InterruptedException {
             log.info("GET-- all employees from DB");
-            Thread.sleep(2000);
             try {
                   List<EmployeeDto> all = employeeService.getAll();
                   return ResponseEntity
@@ -59,7 +58,6 @@ public class EmployeeController {
       @PostMapping("emp")
       public ResponseEntity<Object> updateEmployee(@RequestBody EmployeeDto employeeDto) throws InterruptedException {
             log.info("UPDATE-- employee from DB {}", employeeDto);
-            Thread.sleep(2000);
             try {
                   EmployeeDto employee = employeeService.update(employeeDto, employeeDto.getEmployeeNo());
                   return ResponseEntity
@@ -75,7 +73,6 @@ public class EmployeeController {
       @DeleteMapping("emp/{empNo}")
       public ResponseEntity<Object> deleteEmployee(@PathVariable("empNo") String empNo) throws InterruptedException {
             log.info("DELETE-- employee no {} from DB", empNo);
-            Thread.sleep(2000);
             try {
                   employeeService.deleteByEmployeeNo(empNo);
                   return ResponseEntity
@@ -87,5 +84,4 @@ public class EmployeeController {
                         .body(new EmployeeNotFoundException("Unexpected error"));
             }
       }
-
 }

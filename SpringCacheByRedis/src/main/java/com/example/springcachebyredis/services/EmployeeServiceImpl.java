@@ -29,8 +29,12 @@ public class EmployeeServiceImpl implements  EmployeeService{
 
       @Override
       @Cacheable(value = "EmployeeDto", key = "#employeeNo")
-      public EmployeeDto findByEmployeeNo(String employeeNo) {
+      public EmployeeDto findByEmployeeNo(String employeeNo) throws InterruptedException {
+
+            Thread.sleep(5000);
+
             Optional<Employee> employee = employeeRepository.findEmployeeByEmployeeNo(employeeNo);
+            log.info("GET-- employee from DB {}", employee);
             EmployeeDto employeeDto = employee
                   .map(em -> modelMapper.map(em, EmployeeDto.class))
                   .orElseThrow(() ->new EmployeeNotFoundException("Employee not found"));
