@@ -958,3 +958,95 @@
 2024-01-24T23:01:31.766+03:00  INFO 9876 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-01-24T23:01:31.768+03:00  INFO 9876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-01-24T23:01:31.770+03:00  INFO 9876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-25T13:33:17.896+03:00  INFO 1740 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 1740 (D:\JAVA\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by User in D:\JAVA\Projects\SpringCache)
+2024-01-25T13:33:17.897+03:00  INFO 1740 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-25T13:33:18.502+03:00  INFO 1740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-25T13:33:18.502+03:00  INFO 1740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-25T13:33:18.561+03:00  INFO 1740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2024-01-25T13:33:18.576+03:00  INFO 1740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-25T13:33:18.577+03:00  INFO 1740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-25T13:33:18.589+03:00  INFO 1740 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-25T13:33:18.590+03:00  INFO 1740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-01-25T13:33:19.022+03:00  INFO 1740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-25T13:33:19.038+03:00  INFO 1740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-25T13:33:19.038+03:00  INFO 1740 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-25T13:33:19.084+03:00  INFO 1740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-25T13:33:19.084+03:00  INFO 1740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1152 ms
+2024-01-25T13:33:19.193+03:00  INFO 1740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-25T13:33:19.252+03:00  INFO 1740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-25T13:33:19.287+03:00  INFO 1740 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-25T13:33:19.483+03:00  INFO 1740 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-25T13:33:19.501+03:00  INFO 1740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-25T13:33:19.647+03:00  INFO 1740 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a19a0fe
+2024-01-25T13:33:19.649+03:00  INFO 1740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-25T13:33:20.321+03:00  INFO 1740 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-25T13:33:20.400+03:00  INFO 1740 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-25T13:33:21.050+03:00  WARN 1740 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-25T13:33:21.450+03:00  WARN 1740 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-01-25T13:33:21.455+03:00  INFO 1740 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-25T13:33:21.456+03:00  INFO 1740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-25T13:33:21.458+03:00  INFO 1740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-25T13:33:21.468+03:00  INFO 1740 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-01-25T13:33:21.482+03:00 ERROR 1740 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-01-25T13:33:32.117+03:00  INFO 8392 --- [main] c.e.s.SpringCacheByRedisApplication      : Starting SpringCacheByRedisApplication using Java 21.0.1 with PID 8392 (D:\JAVA\Projects\SpringCache\SpringCacheByRedis\build\classes\java\main started by User in D:\JAVA\Projects\SpringCache)
+2024-01-25T13:33:32.118+03:00  INFO 8392 --- [main] c.e.s.SpringCacheByRedisApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-01-25T13:33:32.650+03:00  INFO 8392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-25T13:33:32.651+03:00  INFO 8392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-25T13:33:32.696+03:00  INFO 8392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2024-01-25T13:33:32.706+03:00  INFO 8392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-25T13:33:32.707+03:00  INFO 8392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-25T13:33:32.716+03:00  INFO 8392 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.springcachebyredis.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-01-25T13:33:32.716+03:00  INFO 8392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-01-25T13:33:33.083+03:00  INFO 8392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-25T13:33:33.093+03:00  INFO 8392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-25T13:33:33.093+03:00  INFO 8392 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-25T13:33:33.139+03:00  INFO 8392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-25T13:33:33.139+03:00  INFO 8392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
+2024-01-25T13:33:33.235+03:00  INFO 8392 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-25T13:33:33.270+03:00  INFO 8392 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-25T13:33:33.294+03:00  INFO 8392 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-25T13:33:33.443+03:00  INFO 8392 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-25T13:33:33.457+03:00  INFO 8392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-25T13:33:33.576+03:00  INFO 8392 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a19a0fe
+2024-01-25T13:33:33.577+03:00  INFO 8392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-25T13:33:34.142+03:00  INFO 8392 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-25T13:33:34.181+03:00  INFO 8392 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-25T13:33:34.778+03:00  WARN 8392 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-25T13:33:35.134+03:00  INFO 8392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-25T13:33:35.139+03:00  INFO 8392 --- [main] c.e.s.SpringCacheByRedisApplication      : Started SpringCacheByRedisApplication in 3.371 seconds (process running for 3.847)
+2024-01-25T13:33:50.646+03:00  INFO 8392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-25T13:33:50.646+03:00  INFO 8392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-25T13:33:50.647+03:00  INFO 8392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-25T13:33:50.664+03:00  INFO 8392 --- [http-nio-8080-exec-1] c.e.s.controller.EmployeeController      : GET-- all employees from controller
+2024-01-25T13:33:55.745+03:00  INFO 8392 --- [http-nio-8080-exec-1] c.e.s.services.EmployeeServiceImpl       : GET-- all employee from DB [Employee(id=1, employeeNo=111111, firstName=FirstName1, midInit=****, lastName=LastName1, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2001-01-01 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2001-01-01 00:00:00.0, salary=111111.00, bonus=111.111, comission=111.111), Employee(id=2, employeeNo=222222, firstName=FirstName2, midInit=****, lastName=LastName2, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2002-01-02 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2002-01-02 00:00:00.0, salary=222222.00, bonus=222.222, comission=222.222), Employee(id=3, employeeNo=333333, firstName=FirstName3, midInit=****, lastName=LastName3, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2003-01-03 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2003-01-03 00:00:00.0, salary=333333.00, bonus=333.333, comission=333.333), Employee(id=4, employeeNo=444444, firstName=FirstName4, midInit=****, lastName=LastName4, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2005-01-05 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2004-01-04 00:00:00.0, salary=444444.00, bonus=444.444, comission=444.444)]
+2024-01-25T13:34:09.041+03:00  INFO 8392 --- [http-nio-8080-exec-4] c.e.s.controller.EmployeeController      : GET-- all employees from controller
+2024-01-25T13:34:13.135+03:00  INFO 8392 --- [http-nio-8080-exec-3] c.e.s.controller.EmployeeController      : GET-- all employees from controller
+2024-01-25T13:34:20.501+03:00  INFO 8392 --- [http-nio-8080-exec-10] c.e.s.controller.EmployeeController      : GET-- employeeDTO by employee_no 111111 from controller
+2024-01-25T13:34:25.535+03:00  INFO 8392 --- [http-nio-8080-exec-10] c.e.s.services.EmployeeServiceImpl       : GET-- employee by employee_no from DB Optional[Employee(id=1, employeeNo=111111, firstName=FirstName1, midInit=****, lastName=LastName1, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2001-01-01 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2001-01-01 00:00:00.0, salary=111111.00, bonus=111.111, comission=111.111)]
+2024-01-25T13:34:28.033+03:00  INFO 8392 --- [http-nio-8080-exec-5] c.e.s.controller.EmployeeController      : GET-- employeeDTO by employee_no 111111 from controller
+2024-01-25T13:34:36.836+03:00  INFO 8392 --- [http-nio-8080-exec-6] c.e.s.controller.EmployeeController      : UPDATE-- employee from controller EmployeeDto(id=1, employeeNo=111111, firstName=FirstName1AfterUpdate, midInit=****, lastName=LastName1AfterUpdate, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=Mon Jan 01 00:00:00 MSK 2001, job=Programmer, edLevel=High, sex=Man, birthDate=Mon Jan 01 00:00:00 MSK 2001, salary=111111.00, bonus=111.111, comission=111.111)
+2024-01-25T13:34:41.849+03:00  INFO 8392 --- [http-nio-8080-exec-6] c.e.s.services.EmployeeServiceImpl       : UPDATE-- update employee in DB Optional[Employee(id=1, employeeNo=111111, firstName=FirstName1, midInit=****, lastName=LastName1, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2001-01-01 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2001-01-01 00:00:00.0, salary=111111.00, bonus=111.111, comission=111.111)]
+2024-01-25T13:34:48.175+03:00  INFO 8392 --- [http-nio-8080-exec-7] c.e.s.controller.EmployeeController      : GET-- all employees from controller
+2024-01-25T13:34:53.179+03:00  INFO 8392 --- [http-nio-8080-exec-7] c.e.s.services.EmployeeServiceImpl       : GET-- all employee from DB [Employee(id=2, employeeNo=222222, firstName=FirstName2, midInit=****, lastName=LastName2, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2002-01-02 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2002-01-02 00:00:00.0, salary=222222.00, bonus=222.222, comission=222.222), Employee(id=3, employeeNo=333333, firstName=FirstName3, midInit=****, lastName=LastName3, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2003-01-03 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2003-01-03 00:00:00.0, salary=333333.00, bonus=333.333, comission=333.333), Employee(id=4, employeeNo=444444, firstName=FirstName4, midInit=****, lastName=LastName4, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2005-01-05 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2004-01-04 00:00:00.0, salary=444444.00, bonus=444.444, comission=444.444), Employee(id=1, employeeNo=111111, firstName=FirstName1AfterUpdate, midInit=****, lastName=LastName1AfterUpdate, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2001-01-01 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2001-01-01 00:00:00.0, salary=111111.00, bonus=111.111, comission=111.111)]
+2024-01-25T13:35:11.793+03:00  INFO 8392 --- [http-nio-8080-exec-9] c.e.s.controller.EmployeeController      : DELETE-- employee_no 111111 from controller
+2024-01-25T13:35:16.802+03:00  INFO 8392 --- [http-nio-8080-exec-9] c.e.s.services.EmployeeServiceImpl       : DELETE-- delete employee by  employee_no in DB 111111
+2024-01-25T13:35:21.827+03:00  INFO 8392 --- [http-nio-8080-exec-8] c.e.s.controller.EmployeeController      : GET-- all employees from controller
+2024-01-25T13:35:26.834+03:00  INFO 8392 --- [http-nio-8080-exec-8] c.e.s.services.EmployeeServiceImpl       : GET-- all employee from DB [Employee(id=2, employeeNo=222222, firstName=FirstName2, midInit=****, lastName=LastName2, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2002-01-02 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2002-01-02 00:00:00.0, salary=222222.00, bonus=222.222, comission=222.222), Employee(id=3, employeeNo=333333, firstName=FirstName3, midInit=****, lastName=LastName3, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2003-01-03 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2003-01-03 00:00:00.0, salary=333333.00, bonus=333.333, comission=333.333), Employee(id=4, employeeNo=444444, firstName=FirstName4, midInit=****, lastName=LastName4, workDept=WorkDepth, phoneNo=+3752599661165, hireDate=2005-01-05 00:00:00.0, job=Programmer, edLevel=High, sex=Man, birthDate=2004-01-04 00:00:00.0, salary=444444.00, bonus=444.444, comission=444.444)]
+2024-01-25T13:37:53.664+03:00  INFO 8392 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-25T13:37:53.665+03:00  INFO 8392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-25T13:37:53.667+03:00  INFO 8392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
